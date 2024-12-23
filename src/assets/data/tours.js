@@ -5,8 +5,9 @@ import tourImg04 from "../images/tour-img04.jpg";
 import tourImg05 from "../images/tour-img05.jpg";
 import tourImg06 from "../images/tour-img06.jpg";
 import tourImg07 from "../images/tour-img07.jpg";
-
+import Royuimg2 from "../images/Royuimg2.jpg";
 const tours = [
+
   {
     id: "01",
     title: "Westminister Bridge",
@@ -15,20 +16,21 @@ const tours = [
     address:'Somewhere',
     price: 99,
     maxGroupSize: 10,
-    desc: "this is the description",
+    desc: "Westminster Bridge is a road-and-foot-traffic bridge crossing over the River Thames in London, linking Westminster on the west side and Lambeth on the east side.",
     reviews: [
       {
         name: "jhon doe",
         rating: 4.6,
       },
       {
-        name: "jhon doe",
+        name: "jhon ",
         rating: 5,
       },
     ],
     avgRating: 4.5,
     photo: tourImg01,
-    featured: true,
+    featured:true,
+    
   },
   {
     id: "02",
